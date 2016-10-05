@@ -9,5 +9,4 @@ Authors@R: c(person("Teno", "Gonzalez Dos Santos", email = "tengo471@student.liu
 Description: A faster and robust tool for handling linear regression models
     using QR decomposition
 License: GLP
-
-
+RoxygenNote: 5.0.1
