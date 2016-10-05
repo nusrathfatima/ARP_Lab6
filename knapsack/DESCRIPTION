@@ -10,3 +10,6 @@ Description: A faster and robust tool for handling linear regression models
     using QR decomposition
 License: GLP
 RoxygenNote: 5.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
