@@ -6,8 +6,8 @@ Date: 2016-10-05
 Authors@R: c(person("Teno", "Gonzalez Dos Santos", email = "tengo471@student.liu.se", role = c("aut", "cre")),
              person("Enrique Josue", "Alvarez Robles", email = "enral465@student.liu.se", role = c("aut")),
              person("Jose Luis", "Lopez Ruiz", email = "joslo172@student.liu.se", role = c("aut")))
-Description: A faster and robust tool for handling linear regression models
-    using QR decomposition
+Description: A tool containing functions to solve the knapsack problem using different
+    approaches
 License: GLP
 RoxygenNote: 5.0.1
 Suggests: knitr,
