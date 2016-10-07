@@ -1,3 +1,23 @@
+#' Greedy knapsack algorithm
+#' @export
+#' 
+#' @description Implementation of the knapsack algorithm using the greedy approach.
+#' 
+#' @param x A dataframe with columns weight (w) and value (v) of the objects 
+#' @param W A positive scalar with the capacity of the bag
+
+#' 
+#' @return A list containing the \code{value} of the bag content and a vector of the \code{elements} inside
+#' 
+#' @references 
+#' Knapsack Problem - \url{https://en.wikipedia.org/wiki/Knapsack_problem}
+#' 
+#' @examples
+#' set.seed(42)
+#' n <- 2000
+#' knapsack_objects <- data.frame( w=sample(1:4000, size = n, replace = TRUE), v=runif(n = n, 0, 10000))
+#' greedy_knapsack(x = knapsack_objects[1:8,], W = 3500)
+#'
 
 greedy_knapsack <- function(x,W) {
   if (!is.data.frame(x))
